@@ -24,7 +24,6 @@ function SalesHistory({jobData}) {
               </ul>
             </div>
           </div>
-          
       ))}
   </>
   );
