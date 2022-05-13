@@ -11,7 +11,7 @@ const Dashboard = ({jobs, jobData}) => {
             <div className="card" id={styles.firstCard} >
                 <div className="card-body">
                     <h4 className="card-title"><a> Sales </a></h4>
-                    <p className="card-text">Total Sales {jobData.jobDoc?.length} </p>
+                    <p className="card-text">Total Sales: {jobData.jobDoc?.length} </p>
                     <Link to="/history">
                     <button className="btn btn-primary">  sales History </button>
                     </Link>
@@ -20,7 +20,7 @@ const Dashboard = ({jobs, jobData}) => {
             <div className="card" id={styles.secondCard}>
                 <div className="card-body">
                     <h4 className="card-title"><a>Card title</a></h4>
-                    <p className="card-text"> Commissions 0 </p>
+                    <p className="card-text"> Commissions: 20 usd </p>
                 </div>
             </div>
         </main>

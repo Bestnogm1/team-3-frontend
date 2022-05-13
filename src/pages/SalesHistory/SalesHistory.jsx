@@ -8,11 +8,11 @@ function SalesHistory({jobData}) {
       {jobData.jobDoc?.map( (j, index) => (
           <div className={styles.mains}>
             <Card style={{ width: '18rem' }}>
-            <Card.Header>{j.customer.name}</Card.Header>
+            <Card.Header>Name: {j.customer.name}</Card.Header>
             <ListGroup variant="flush">
               <ListGroup.Item>Product: {j.product}</ListGroup.Item>
               <ListGroup.Item> Date: {j.date} </ListGroup.Item>
-              <ListGroup.Item> Date:{j.customer.deposit} </ListGroup.Item>
+              <ListGroup.Item> Deposit:{j.customer.deposit} </ListGroup.Item>
             </ListGroup>
           </Card>
           </div>
